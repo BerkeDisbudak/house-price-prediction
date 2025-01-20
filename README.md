@@ -99,10 +99,6 @@ pip install -r requirements.txt
 
 Contributions, issues, and feature requests are welcome. Feel free to fork this repository and make your improvements!
 
-## License
-
-This project is for educational purposes and is provided under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
 Feel free to contact me for further details or improvements!
