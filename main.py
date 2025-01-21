@@ -36,7 +36,7 @@ print(missing_data_cols[missing_data_cols > 0])
 
 #n_estimators refers to the total number of decision trees the model will create. Increasing the number of trees can improve the model's performance, but it also requires more computational resources (time and memory).
 def model_score(X_train, X_valid, y_train, y_valid):
-    model = RandomForestRegressor(n_estimators= 100, random_state= 0)
+    model = RandomForestRegressor(n_estimators= 100, max_depth =5, random_state= 0)
     model.fit(X_train, y_train)
     pred = model.predict(X_valid)
     mae = mean_absolute_error(y_valid, pred)
